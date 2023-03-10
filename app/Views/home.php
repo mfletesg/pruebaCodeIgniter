@@ -40,6 +40,8 @@
                     <tbody id="dataTable">
                     </tbody>
                 </table>
+
+                <a  class="btn btn-primary" href="https://miguelfletes.com" style="margin-bottom: 20px; margin-top: 20px;" >Ir a mi página Web</i></a>
             </div>
         </div>
     </div>

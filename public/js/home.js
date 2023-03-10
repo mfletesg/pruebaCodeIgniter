@@ -63,6 +63,7 @@ async function createUser(){
         let response = await res.json();
         console.log(response)
         getUsers();
+        cleanForm();
         $('#modalUser').modal('hide')
         alert(response.message)
     } catch (e) {
@@ -160,6 +161,7 @@ async function editUser(){
         let response = await res.json();
         console.log(response)
         getUsers();
+        cleanForm();
         $('#modalUser').modal('hide')
         alert(response.message)
     } catch (e) {
@@ -195,4 +197,10 @@ async function deleteUser(id){
     } catch (e) {
         console.log(e);
     }
+}
+
+function cleanForm(){
+    document.getElementById('inputFirtName').value = ''
+    document.getElementById('inputLastName').value = ''
+    document.getElementById('inputAddress').value = ''
 }

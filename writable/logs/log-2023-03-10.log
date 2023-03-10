@@ -1,0 +1,484 @@
+CRITICAL - 2023-03-10 19:05:52 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:06:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:07:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:09:34 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:11:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:12:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:12:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-10 19:12:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-03-10 18:27:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\crud\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\crud\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\crud\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\crud\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\crud\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\crud\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\crud\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\crud\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\crud\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\crud\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\crud\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\crud\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-03-10 19:58:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 19:58:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\');
+                            ')
+ 2 APPPATH\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 19:58:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 19:58:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\');
+                            ')
+ 2 APPPATH\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 19:59:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 19:59:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\');
+                            ')
+ 2 APPPATH\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 19:59:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 19:59:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:00:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:00:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:00:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:00:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(19): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:01:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(21): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:01:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(21): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 20:01:45 --> Constant ENVIRONMENT already defined
+in APPPATH\Controllers\Home.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Constant ENVIRONMENT already defined', 'APPPATH\\Controllers\\Home.php', 6, [...])
+ 2 APPPATH\Controllers\Home.php(6): define('ENVIRONMENT', 'development')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('APPPATH\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:01:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(21): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:01:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(21): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 20:05:02 --> Call to a member function query() on null
+in APPPATH\Controllers\Home.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:06:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(21): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:06:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(21): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:08:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(25): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:08:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(25): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:09:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(28): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 20:09:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO home
+                            \'first_name\',
+                            \'last_name\',
+                            \'address\')
+                            VALUES
+                            (
+                            \'1\',
+                            \'1\',
+                            \'1\')')
+ 2 APPPATH\Controllers\Home.php(28): App\Models\UserModel->createUserModel()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 20:09:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(28): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-10 20:09:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 2 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(20): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(28): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-03-10 20:11:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''first_name',
+                            'last_name',
+                    ...' at line 3 in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO hom...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO hom...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO hom...')
+#3 C:\xampp\htdocs\crud\app\Models\UserModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO hom...')
+#4 C:\xampp\htdocs\crud\app\Controllers\Home.php(28): App\Models\UserModel->createUserModel()
+#5 C:\xampp\htdocs\crud\system\CodeIgniter.php(934): App\Controllers\Home->getUsers()
+#6 C:\xampp\htdocs\crud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

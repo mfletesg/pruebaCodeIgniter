@@ -26,7 +26,7 @@
         <div class="row">
             <div class="col-12">
 
-                <button type="button" class="btn btn-primary" onclick="modalUser(1)">New</button>
+                <button type="button" class="btn btn-primary" onclick="modalUser(1)" style="margin-bottom: 20px; margin-top: 20px;" >➕ New</i></button>
                 <table class="table">
                     <thead>
                         <tr>

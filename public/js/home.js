@@ -100,8 +100,8 @@ async function getUsers(){
                         <td>"+user['last_name']+"</td>\
                         <td>"+user['address']+"</td>\
                         <td>\
-                            <button type='button' class='btn btn-success btn-sm' onclick='modalUser(2, "+user['id']+", " + JSON.stringify(user) + " )'>Edit</button>\
-                            <button type='button' class='btn btn-danger btn-sm' onclick='deleteUser("+user['id']+")'>Delete</button>\
+                            <button type='button' class='btn btn-success btn-sm' onclick='modalUser(2, "+user['id']+", " + JSON.stringify(user) + " )'>✏️ Edit</button>\
+                            <button type='button' class='btn btn-danger btn-sm' onclick='deleteUser("+user['id']+")'>🗑️ Delete</button>\
                         </td>\
                     </tr>";
         }
